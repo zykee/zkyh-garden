@@ -1,0 +1,51 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "description": "react demo with TypeScript",
+  "main": "scripts/server.js",
+  "scripts": {
+    "start": "node scripts/build.js clear && webpack --config scripts/webpack.dev.js -w",
+    "prod": "node scripts/build.js clear && webpack --config scripts/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "react",
+    "antd",
+    "TypeScript"
+  ],
+  "author": "Chiang",
+  "license": "ISC",
+  "dependencies": {
+    "@types/braft-editor": "^1.9.0",
+    "@types/nprogress": "^0.0.29",
+    "antd": "^3.7.2",
+    "moment": "^2.22.1",
+    "mount-react": "^0.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2",
+    "redux": "3.7.2",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.10",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-router-dom": "^4.2.6",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "3",
+    "file-loader": "^1.1.11",
+    "fs-extra": "^5.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.20.3",
+    "ts-import-plugin": "^1.4.4",
+    "ts-loader": "3",
+    "typescript": "^2.8.1",
+    "webpack": "3",
+    "webpack-merge": "^4.1.2"
+  }
+}

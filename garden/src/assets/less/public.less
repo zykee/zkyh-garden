@@ -1,0 +1,121 @@
+html,
+body,
+#app {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    min-width: 1200px; // min-height: 600px; // overflow: hidden;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: auto;
+    background-color: #fff;
+}
+//所有layout背景为白色
+.ant-layout{
+    background :#fff;
+}
+//所有header背景为白色
+.ant-layout-header {
+    background-color: #fff;
+}
+
+//所有content背景色为白色
+.ant-layout-content {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+//所有主页面的title在<Header>标签中的类名
+.header-title {
+    height: 80px;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px!important;
+    box-sizing: border-box;
+}
+
+//row每行上下间隔20px类
+.ant-row-private-margin {
+    margin: 20px 0 20px 0;
+}
+
+//统一操作a标签格式link-line
+.link-line {
+    color: #1890ff;
+    white-space: nowrap;
+}
+.link-line:hover {
+    text-decoration-line: underline;
+}
+//置灰a标签样式
+.disabled-btn{
+    white-space: nowrap;
+    color:rgb(199, 195, 195);
+}
+.disabled-btn:hover{
+    text-decoration-line:none;
+    color:rgb(199, 195, 195);
+}
+//table组件样式统一修改
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td {
+    padding: 8px;
+}
+
+//在modal上添加wrapperclassName={vertical-center-modal}---modal-50px显示
+.vertical-center-modal {
+    text-align: center;
+    // white-space: nowrap;
+}
+
+.vertical-center-modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 50px;
+    text-align: left;
+}
+
+//所有编辑页面的Rows的上下margin
+.row-edit-list-margin{
+    margin:20px 0;
+}
+
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+    border: 1px solid #d9d9d9;
+    background-color: #f4f4f5;
+    border-radius: 4px;
+    outline: none;
+    display: block;
+    // -webkit-transition: all .3s;
+    // transition: all .3s;
+}
+
+
+.ant-table-thead span{
+    color: #909399;
+    font-weight: 500;
+    font-weight: bold;
+}
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 12px 0px ;
+}
+.ant-layout > div.ant-layout-content{
+        background-color: #fff;
+        padding:0px;
+    }

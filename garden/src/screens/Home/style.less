@@ -1,0 +1,87 @@
+// .home-style {
+//     //包裹在home最外层layout的类名（在home页面里的样式一律写在该类中）
+//     .home-sider {
+//         //home页面sider的样式
+//         border-right: 1px solid #e8e8e8;
+//         // text-align: center;
+//         padding-top:60px;
+//         box-sizing: border-box;
+//         overflow-y: auto;
+//         overflow-x: hidden;
+//         height: 100vh;
+//         position: fixed;
+//         left: 0;
+//         z-index: 999;
+//     }
+//     // .home-header {
+//     //     //所有header背景为白色
+//     //     .ant-layout-header {
+//     //         background-color: #001529;
+//     //     }
+//     // } 
+//     // .home-menu{
+//     //   //填写包裹在menu内的样式
+//     // }
+// }
+.frame-layout {
+    height: 100vh;
+    .frame-logo {
+        top: 0;
+        height: 32px;
+        background: rgba(255, 255, 255, .2);
+        text-align: center;
+        line-height: 32px;
+        font-size: 18px;
+        font-weight: bold;
+        box-sizing: border-box;
+        margin: 16px;
+        overflow: hidden;
+    }
+    .frame-header {
+        background: #001529;
+        padding: 0;
+        .ant-row{
+            color:rgb(224, 224, 224);
+        }
+
+        .trigger{
+            display: inline-block;
+        }
+
+        .btn-logout {
+            height: 64px;
+            border: none;
+            background: none;
+            color: aliceblue;
+
+            &:hover{
+                color: aqua;
+            }
+        }
+    }
+
+    .ant-layout-content{
+        background-color: #fff;
+    }
+    .ant-btn-primary, .ant-btn-danger{
+        box-sizing: initial;
+    }
+    .ant-btn-primary, .ant-btn-danger{
+        padding: 3px 15px;
+    }
+    .ant-btn-danger{
+        background-color: #f5222d;
+        border:1px solid #f5222d;
+        color: #fff;
+    }
+    .ant-btn-primary[disabled]{
+        color: #fff;
+        background-color: #c9e0f7;
+        border: 1px solid #c9e0f7;
+    }
+    .ant-btn-danger[disabled]{
+        color: #fff;
+        background-color: #fcc4c6;
+        border: 1px solid #fcc4c6;
+    }
+}
